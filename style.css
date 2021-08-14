@@ -1,0 +1,28 @@
+#pagination li{
+    list-style-type: none;
+    border: 2px solid black;
+    display: table-cell;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#pagination li:hover, #pagination li.active{
+    color: lightcoral;
+    border: 2px solid lightcoral;
+}
+
+#mytable td{
+    border: 2px solid black;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#filter{
+    height: 20px;
+}
